@@ -1,3 +1,6 @@
+" Remap leader key
+let g:mapleader = "\<Space>"
+
 " The following mappings are concerned with insert-mode
 inoremap jk <ESC>
 inoremap <S-CR> <ESC>o
