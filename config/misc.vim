@@ -1,0 +1,12 @@
+syntax on 
+set noswapfile
+set cursorline
+set number 
+set splitbelow
+set splitright
+set autochdir
+set hlsearch 
+set ignorecase
+set noshowmode
+set incsearch
+set pyxversion=3
