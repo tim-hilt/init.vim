@@ -15,6 +15,6 @@ Plug 'justinmk/vim-sneak'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/rainbow_parentheses.vim'
+Plug 'neovim/nvim-lspconfig'
 " Plug 'SirVer/ultisnips'
-" Plug 'neovim/nvim-lspconfig'
 call plug#end()
