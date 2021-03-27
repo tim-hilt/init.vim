@@ -9,6 +9,7 @@ When opening for the first, some plugins may complain about missing binaries (`f
 1. Set up auto-completion with native neovim-lsp
 2. Set up and use snippets using `ultisnips`
 3. Set up proper `git`-integration (`vim-fugitive` etc.)
+4. Convert config to lua
 
 ## Wishlist
 
