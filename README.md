@@ -6,5 +6,10 @@ When opening for the first, some plugins may complain about missing binaries (`f
 
 ## TODO
 
-1. Set up auto-completiong with `coc.nvim`
+1. Set up auto-completion with native neovim-lsp
 2. Set up and use snippets using `ultisnips`
+3. Set up proper `git`-integration (`vim-fugitive` etc.)
+
+## Wishlist
+
+*Stored in screenshots; should add here*
