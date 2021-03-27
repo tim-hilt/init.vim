@@ -1,3 +1,4 @@
+set completeopt=menuone,noselect
 syntax on 
 set noswapfile
 set cursorline

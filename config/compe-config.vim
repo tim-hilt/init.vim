@@ -1,5 +1,4 @@
-vim.o.completeopt = "menuone,noselect"
-
+lua << EOF
 require'compe'.setup {
   enabled = true;
   autocomplete = true;
@@ -23,3 +22,4 @@ require'compe'.setup {
     vsnip = true;
   };
 }
+EOF
