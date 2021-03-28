@@ -1,4 +1,3 @@
-lua << EOF
 local nvim_lsp = require('lspconfig')
 local on_attach = function(client, bufnr)
   local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
@@ -54,4 +53,3 @@ for _, lsp in ipairs(servers) do
 end
 
 require'lspconfig'.rust_analyzer.setup{}
-EOF
