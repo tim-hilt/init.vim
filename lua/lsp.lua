@@ -51,5 +51,3 @@ local servers = { "pyright", "rust_analyzer", "tsserver" }
 for _, lsp in ipairs(servers) do
   nvim_lsp[lsp].setup { on_attach = on_attach }
 end
-
-require'lspconfig'.rust_analyzer.setup{}
