@@ -10,12 +10,15 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-vinegar'
-Plug 'jiangmiao/auto-pairs'
+Plug 'windwp/nvim-autopairs'
 Plug 'justinmk/vim-sneak'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-compe'
+Plug 'hrsh7th/vim-vsnip'
 " Plug 'SirVer/ultisnips'
 call plug#end()
+
+lua require('nvim-autopairs').setup()

@@ -1,4 +1,4 @@
-set completeopt=menuone,noselect
+set completeopt=menu,menuone,noselect
 syntax on 
 set noswapfile
 set cursorline
@@ -11,3 +11,11 @@ set ignorecase
 set noshowmode
 set incsearch
 set pyxversion=3
+
+" Indentation
+set tabstop=4
+set expandtab
+set shiftwidth=2
+set autoindent
+set smartindent
+set cindent
