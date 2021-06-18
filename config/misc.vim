@@ -1,7 +1,6 @@
 set completeopt=menu,menuone,noselect
 syntax on 
 set noswapfile
-set cursorline
 set number 
 set splitbelow
 set splitright
