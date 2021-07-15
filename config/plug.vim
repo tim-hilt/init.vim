@@ -8,7 +8,6 @@ endif
 call plug#begin('~/.vim/plugged')
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'tpope/vim-surround'
-Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-vinegar'
 Plug 'windwp/nvim-autopairs'
 Plug 'justinmk/vim-sneak'
@@ -24,6 +23,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'projekt0n/github-nvim-theme'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'lewis6991/gitsigns.nvim'
+Plug 'b3nj5m1n/kommentary'
 " Plug 'SirVer/ultisnips'
 call plug#end()
 
