@@ -9,6 +9,7 @@ RUN sed -i "s/#ParallelDownloads/ParallelDownloads/" /etc/pacman.conf
 RUN pacman --cachedir /tmp -Syu --noconfirm \
 	fish \
 	git \
+    clang \
     starship \
     sudo \
 	tmux \
@@ -28,5 +29,8 @@ RUN mkdir /home/dev/.config/fish
 RUN echo "starship init fish | source" >> /home/dev/.config/fish/config.fish
 
 WORKDIR /home/dev
+
+RUN curl -sfLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+# RUN nvim -es -u /home/dev/.config/nvim/init.vim -i NONE -c "PlugInstall" -c "qa"
 
 ENTRYPOINT [ "fish" ]

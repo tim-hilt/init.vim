@@ -1,5 +1,5 @@
 set completeopt=menu,menuone,noselect
-set shortmess+=c
+set shortmess=I
 set cursorline
 syntax on 
 set noswapfile
