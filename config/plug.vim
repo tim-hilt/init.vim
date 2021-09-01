@@ -1,3 +1,5 @@
+let g:plug_home = stdpath("data") . "/plugged"
+
 call plug#begin('~/.vim/plugged')
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'tpope/vim-surround'
